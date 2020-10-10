@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 url=$1
 fname=$2
-echo "starting download"
+echo "starting download of $fname from $url"
 python3 mp3_download.py $url $fname
 echo "finished download"
 fname="$fname.webm"
