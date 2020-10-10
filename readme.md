@@ -1,10 +1,10 @@
-# pytube wrapper
+# youtube-music-downloader
 
 Small wrapper around pytube to download mp3's from Youtube.
 
 ## Setup
 
-`pip install pytube` gives me problems, instead install as below:
+`pip install pytube` gives me problems, instead install as below.  We use `ffmpeg` to convert from `.webm` to `.mp3`.
 
 ```bash
 $ pip install git+https://gitlab.com/obuilds/public/pytube@ob-v1 --upgrade`
