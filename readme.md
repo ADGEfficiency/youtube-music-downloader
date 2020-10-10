@@ -22,7 +22,7 @@ Make sure you keep spaces out of FILENAME!
 
 For example:
 ```bash
-./pytube-wrapper https://www.youtube.com/watch?v=DPm9RVpwOLQ atlas-bicep
+./pytube-wrapper https://www.youtube.com/watch?v=yZOhtyTyqBw not-what-is-alan-watts
 ```
 
-Will download to a file `atlas-bicep.mp3`
+Will download to a file `not-what-is-alan-watts.mp3`
