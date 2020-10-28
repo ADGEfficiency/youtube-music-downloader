@@ -10,8 +10,9 @@ Setup the wrapper:
 $ git clone https://github.com/ADGEfficiency/youtube-music-downloader
 $ cd youtube-music-downloader
 $ chmod +x pytube-wrapper
+```
 
-Install pytube:
+Install `pytube`:
 
 ```bash
 $ git clone https://github.com/nficano/pytube
