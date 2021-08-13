@@ -9,15 +9,13 @@ Setup the wrapper:
 ```bash
 $ git clone https://github.com/ADGEfficiency/youtube-music-downloader
 $ cd youtube-music-downloader
-$ chmod +x pytube-wrapper
+$ chmod +x pyt
 ```
 
 Install `pytube`:
 
 ```bash
-$ git clone https://github.com/nficano/pytube
-$ cd pytube
-$ python setup.py install
+$ pip install -r requirements.txt
 ```
 
 We use `ffmpeg` to convert from `.webm` to `.mp3`:
@@ -31,12 +29,12 @@ $ brew install ffmpeg
 Make sure you keep spaces out of FILENAME!
 
 ```bash
-./pytube-wrapper URL FILENAME
+./pyt URL FILENAME
 ```
 
 For example:
 ```bash
-./pytube-wrapper https://www.youtube.com/watch?v=yZOhtyTyqBw not-what-is-alan-watts
+./pyt https://www.youtube.com/watch?v=yZOhtyTyqBw not-what-is-alan-watts
 ```
 
 Will download to a file `not-what-is-alan-watts.mp3`
